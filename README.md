@@ -6,7 +6,7 @@ This project is a real-time scream detection system that identifies human scream
 It captures audio through a microphone, extracts key features, and classifies whether the sound is a Scream or Non-Scream.
 
 
-Features
+Features:
 
 Real-time audio detection using microphone
 Machine Learning-based classification
@@ -19,7 +19,7 @@ GUI-based interface (Tkinter)
 Detects high-intensity sounds like screams/shouts
 
 
-Tech Stack
+Tech Stack:
 
 Python
 TensorFlow / Keras
@@ -30,7 +30,7 @@ Tkinter
 
 
 
-Project Structure
+Project Structure:
 
 scream-detection/
 │
@@ -48,7 +48,7 @@ scream-detection/
 ├── README.md
 └── .gitignore
 
-Installation
+Installation:
 
 Clone the repository:
 git clone https://github.com/your-username/scream-detection.git
@@ -56,21 +56,21 @@ cd scream-detection
 Install dependencies:
 pip install -r requirements.txt
 
-Usage
+Usage:
 
 Run the GUI:
 python ui/app.py
 Train the Model:
 python src/train.py
 
-Model Details
+Model Details:
 
 Input: Audio signal
 Features Used: MFCC, Chroma, Mel Spectrogram
 Model: Dense Neural Network (TensorFlow)
 Output: Scream / Non-Scream classification
 
-Dataset
+Dataset:
 
 The dataset contains:
 Human scream audio samples
@@ -78,7 +78,7 @@ Non-scream environmental sounds
 (Kaggle)
 
 
-Future Improvements
+Future Improvements:
 
 Improve model accuracy with larger dataset
 Deploy as a mobile application
@@ -86,11 +86,11 @@ Integrate with CCTV/security systems
 Add real-time alert/notification system
 
 
-License
+License:
 
 This project is intended for educational and research purposes.
 
 
-⭐ Support
+⭐ Support:
 If you found this project useful, consider giving it a ⭐ on GitHub.
 
