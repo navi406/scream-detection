@@ -53,6 +53,7 @@ Scikit-learn
 Tkinter (for testing UI)
 
 
+
 📂 Project Structure
 scream-detection/
 │
