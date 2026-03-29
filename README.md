@@ -1,4 +1,5 @@
 🔊 AI Scream Detection System
+
 🚀 Project Overview
 This project is a real-time scream detection system that identifies human screams or distress sounds using machine learning and audio signal processing.
 It captures audio through a microphone, extracts key features, and classifies whether the sound is a Scream or Non-Scream.
@@ -66,19 +67,19 @@ Output: Scream / Non-Scream classification
 The dataset contains:
 Human scream audio samples
 Non-scream environmental sounds
-(You can mention your dataset source if needed, e.g., Kaggle)
-👥 Contributors
-Your Name
-Team Member 1
-Team Member 2
+(Kaggle)
+
 
 🔐 Future Improvements
 Improve model accuracy with larger dataset
 Deploy as a mobile application
 Integrate with CCTV/security systems
 Add real-time alert/notification system
+
+
 📜 License
 This project is intended for educational and research purposes.
+
 
 ⭐ Support
 If you found this project useful, consider giving it a ⭐ on GitHub.
