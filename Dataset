@@ -1,0 +1,68 @@
+👉 Download Dataset:
+https://www.kaggle.com/datasets/whats2000/human-screaming-detection-dataset
+
+📁 Dataset Description
+
+The dataset consists of labeled audio samples used for training and evaluating the scream detection model.
+
+Categories:
+Scream → Human screams / distress sounds
+Non-Scream → Environmental and background sounds
+
+
+🔊 Audio Details
+
+
+Format: .wav
+Sampling Rate: (mention if you know, e.g., 22050 Hz or 44100 Hz)
+Duration: Varies per sample
+Type: Mono audio (recommended)
+
+
+🧠 Preprocessing
+
+Before training, the following preprocessing steps are applied:
+
+Noise handling (if applicable)
+Feature extraction:
+MFCC (Mel-Frequency Cepstral Coefficients)
+Chroma Features
+Mel Spectrogram
+Normalization of features
+
+
+🗂️ Dataset Structure (Example)
+
+dataset/
+│
+├── train/
+│   ├── scream/
+│   └── non_scream/
+│
+├── validation/
+│   ├── scream/
+│   └── non_scream/
+
+
+⚠️ Note
+The dataset is not included in this repository due to size constraints
+Please download it from the link above before running the project
+Ensure the dataset is placed in the correct directory structure
+
+
+🚀 Usage Tip
+
+After downloading:
+
+Extract the dataset
+
+Place it inside:
+
+scream-detection/dataset/
+Run training or prediction scripts
+
+
+
+📌 Acknowledgment
+
+Dataset sourced from Kaggle and used for educational and research purposes.
